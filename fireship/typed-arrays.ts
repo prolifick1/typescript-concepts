@@ -1,6 +1,7 @@
-//set up a number typed array
+//sets up a tuple that accepts number, string, and boolean types
 
-const arr:number[] = [];
+type MyList = [number?, string?, boolean?];
+const arr : MyList = [];
 
 arr.push(1);
 arr.push('23');
