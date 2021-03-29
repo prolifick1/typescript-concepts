@@ -1,6 +1,6 @@
-//sets up fireship typed arrays example
+//set up a number typed array
 
-const arr = [];
+const arr:number[] = [];
 
 arr.push(1);
 arr.push('23');
