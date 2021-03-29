@@ -22,3 +22,6 @@
 //   return `${firstName} ${lastName}`;
 // }
 // console.log(getName('John'));
+function myVoid() {
+    return 4;
+}

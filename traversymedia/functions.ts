@@ -28,3 +28,7 @@
 // }
 
 // console.log(getName('John'));
+
+function myVoid():void {
+  return 4;
+}
