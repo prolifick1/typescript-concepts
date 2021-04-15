@@ -1,4 +1,9 @@
-function fullName( person : { firstname: string, lastname: string }): string {
+interface Person {
+  firstname: string,
+  lastname: string
+}
+
+function fullName(person: Person): string {
   return `${person.firstname} ${person.lastname}`;
 }
 
