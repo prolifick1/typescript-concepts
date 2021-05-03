@@ -1,11 +1,9 @@
+"use strict";
 //create function getSum, specifying parameter types and return type
-
 // function getSum(num1: number, num2: number) : number {
 //   return num1 + num2;
 // }
-
 // console.log(getSum(4, 4));
-
 // //create a function expression that accepts any type as parameters, casts the parameters to number type, and returns number
 // let mySum = function getSum(num1: any, num2: any): number {
 //   if (typeof (num1) === 'string') {
@@ -16,9 +14,7 @@
 //   }
 //   return num1 + num2;
 // }
-
 // console.log(mySum('3', 5));
-
 // //create a function that takes a firstName and OPTIONAL lastName, and returns either just the firstName or the firstName lastName
 // function getName(firstName: string, lastName?: string): string {
 //   if(lastName === undefined) {
@@ -26,9 +22,7 @@
 //   }
 //   return `${firstName} ${lastName}`;
 // }
-
 // console.log(getName('John'));
-
-function myVoid():void {
-  return 4;
-}
+// function myVoid():void {
+//   return 4;
+// }

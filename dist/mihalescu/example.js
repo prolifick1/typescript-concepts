@@ -1,11 +1,11 @@
 "use strict";
-function getLowercasedString(myStrinstring) {
+function getLowercasedString(myString) {
     return myString.toLowerCase();
 }
 ;
 function getHumanReadableMessage(response) {
     if (response.data.hasSucceeded) {
-        return "Action succeeded: " + response.message;
+        return "Action succeeded: " + response.data.message;
     }
     return "Oops, something went wrong";
 }

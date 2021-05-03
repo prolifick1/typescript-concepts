@@ -1,6 +1,6 @@
 interface Person {
   firstname: string,
-  lastname: string
+  lastname?: string
 }
 
 function fullName(person: Person): string {
@@ -9,7 +9,6 @@ function fullName(person: Person): string {
 
 let p = {
   firstname: 'john',
-  lastname: 'pinski'
 }
 
 console.log(fullName(p));
